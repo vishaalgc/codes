@@ -25,6 +25,7 @@ class Solution(object):
                 minimisedStr.append(st[i])
                 countConsec = 0
                 startI+=1
+                
         outCount = 0
         for word in words:
             startIndexS = 0

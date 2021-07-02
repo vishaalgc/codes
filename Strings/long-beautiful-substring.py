@@ -35,7 +35,7 @@ def longestBeautifulSubstring( A):
                     lastSeen = 'u'
                 elif lastSeen == 'u' and A[i] != 'u':
                     # here we visited all
-                    print(count,maxCount,i)
+                    # print(count,maxCount,i)
                     maxCount = max(maxCount,count)
                     if A[i] == 'a':
                         count = 1
