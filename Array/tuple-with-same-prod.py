@@ -14,7 +14,8 @@ class Solution:
         return val
     
     def ncr(self,n,r):
-        return self.fact(n) // (self.fact(r) * self.fact(n-r))
+        return (n*(n-1))//2
+        # return self.fact(n) // (self.fact(r) * self.fact(n-r))
     
     def tupleSameProduct(self, nums):
         mp = {}
